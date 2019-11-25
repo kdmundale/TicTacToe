@@ -4,15 +4,23 @@ body {
   background-color: black;
 }
 h1 {
+  display: block;
   text-align: center;
   font-size: 30px;
   font-family: sans-serif;
   color: white;
 }
 .board {
+  height: 20em;
+  width: 20em;
+  padding: 2em;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
-.gird {
+.grid {
   border: 2px solid white;
+  height: 6em;
+  width: 6em;
+  color: white;
 }

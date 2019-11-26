@@ -17,12 +17,12 @@ grid.addEventListener('click', event => {
 
   document.body.addEventListener("click", event => {
    if (event.target.nodeName == "DIV") {
-     console.log("Clicked", event.target.textContent = 'o');
+     console.log("Clicked", event.target.textContent = 'O');
    }
  });
 
  document.body.addEventListener("dblclick", event => {
   if (event.target.nodeName == "DIV") {
-    console.log("Clicked", event.target.textContent = 'x');
+    console.log("Clicked", event.target.textContent = 'X');
   }
 });

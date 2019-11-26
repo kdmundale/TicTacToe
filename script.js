@@ -9,7 +9,7 @@ document.body.addEventListener('click', event => {
   if (event.target.nodeName =='P'|| event.target.nodeName == 'DIV') {
     player = event.target.textContent = 'O';
     poop = getElementsByTagName('p');
-    let x = grid.replaceChildren(player)
+    let x = grid.replaceChildren(player);
   }
 });
 
@@ -17,9 +17,10 @@ document.body.addEventListener('dblclick', event => {
   if (event.target.nodeName =='P' || event.target.nodeName == 'DIV') {
     player = event.target.textContent = 'X';
     poop = getElementsByTagName('p');
-    let x = grid.replaceChildren(player)
+    let x = grid.replaceChildren(player);
   }
 });
+
 
 
 
